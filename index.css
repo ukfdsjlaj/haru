@@ -1,0 +1,152 @@
+/*The website will have the same font*/
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*every button will have the same hovering effect*/
+button{
+    border-style: hidden;
+    background-color:white;
+}
+
+button :hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+/*This removes the purple pixels beside the buttons*/
+a {
+    color: white; 
+}
+
+/*Every page of this website will have the same header which consists logo and sns icons*/
+.logo{
+    display: inline-block; /*This will have the logo image on the left*/
+    padding-left: 50px; /*white space on the top and the left of the logo*/
+    padding-top:  50px;
+}
+
+ /*This will allow for the home and sns to be positioned on the right*/
+.nav{
+    float: right;
+    margin-top: 150px; /*This will align the icon and the text to the bottom of the logo*/
+}   
+
+/*This will have home buttons to be and the left of the sns*/
+.home{
+    display: inline-block; 
+    margin-right: 50px; 
+    font-size: 50px;
+}
+
+/*This will have sns buttons to be placed on the far right*/
+.sns{
+    float: right; 
+    padding-right: 50px; 
+}
+
+/*Set the size of the sns icon*/
+.sns img{
+    height: 50px; 
+    width: 50px;
+}
+
+ /*Margin top(250) right(0) bottom(250) left(50)*/
+.section{
+    margin: 250px 0px 250px 50px;
+}
+
+/*Set the button color to black and give a rounding to the button*/
+.maintext{
+    display: inline-block;
+    max-width: 40%;
+}
+.maintext button{
+    border-radius: 100px; 
+    background-color: black
+}
+
+/*Set shadow and size for the images*/
+.slideshow img{
+    width: 600px;
+    height: 400px;
+    box-shadow: 10px 10px 81px 0;
+}
+
+/*Slideshow container on the right*/
+.slideshow{
+    float:right;
+    max-width: 30%;
+    margin-right: 50px;
+    position: relative;
+}
+
+/*Next & previous buttons*/
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/*The number indicater on the slides*/
+.number{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    padding: 0 10px 10px 0;
+    font-weight: 400;
+    color: white;
+}
+
+/*Position the "next button" to the right*/
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*On hover, add a black background color with a little bit see-through*/
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/*Every page of this website will have the same footer which consists the basic information of the restaurant*/
+#footer{
+    background-color: rgb(50, 50, 50);
+}
+
+#footer ul{
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#footer li{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 500;
+}
