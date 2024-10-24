@@ -56,11 +56,6 @@ a {
     margin: 250px 0px 250px 50px;
 }
 
-/*Set the button color to black and give a rounding to the button*/
-.maintext{
-    display: inline-block;
-    max-width: 40%;
-}
 .maintext button{
     border-radius: 100px; 
     background-color: black
@@ -68,16 +63,15 @@ a {
 
 /*Set shadow and size for the images*/
 .slideshow img{
-    width: 600px;
-    height: 400px;
+    width: 750px;
+    height: 500px;
     box-shadow: 10px 10px 81px 0;
 }
 
 /*Slideshow container on the right*/
 .slideshow{
     float:right;
-    max-width: 30%;
-    padding-right: 7%;
+    margin: 7%;
     position: relative;
 }
 
