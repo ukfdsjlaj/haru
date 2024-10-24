@@ -68,9 +68,11 @@ a {
     box-shadow: 10px 10px 81px 0;
 }
 
+/*Slideshow container on the right*/
 .slideshow{
     display: block;
     margin-top: 100px;
+    position: relative;
 }
 
 /*Next & previous buttons*/
@@ -92,16 +94,15 @@ a {
 /*The number indicater on the slides*/
 .number{
     position: absolute;
-    bottom:0;
-    left: 50%;
-    padding: 0 10px 10px 0;
+    bottom: 10px;
     font-weight: 400;
     color: white;
+    margin-left: 365px;
 }
 
 /*Position the "next button" to the right*/
 .next{
-    right: 0;
+    left:709px;
     border-radius: 3px 0 0 3px;
 }
 
