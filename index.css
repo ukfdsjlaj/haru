@@ -61,16 +61,16 @@ a {
     background-color: black
 }
 
-.slidshow{
-    display: block;
-    margin-top: 100px;
-}
-
 /*Set shadow and size for the images*/
 .slideshow img{
     width: 750px;
     height: 500px;
     box-shadow: 10px 10px 81px 0;
+}
+
+.slideshow{
+    display: block;
+    margin-top: 100px;
 }
 
 /*Next & previous buttons*/
