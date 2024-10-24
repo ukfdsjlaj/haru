@@ -68,12 +68,6 @@ a {
     box-shadow: 10px 10px 81px 0;
 }
 
-/*Slideshow container on the right*/
-.slideshow{
-    margin: 7%;
-    position: relative;
-}
-
 /*Next & previous buttons*/
 .prev, .next{
     cursor: pointer;
